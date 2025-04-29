@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search - Medical Care Finder</title>
+  <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+  <header>
+    <h1>Search</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="main.html">Main</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <img src="images/search.jpg" alt="Search Page" class="responsive-img">
+    <form class="search-form">
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location">
+
+      <label for="specialty">Specialty:</label>
+      <select id="specialty" name="specialty">
+        <option value="primary">Primary Care</option>
+        <option value="emergency">Emergency Care</option>
+        <option value="specialized">Specialized Care</option>
+      </select>
+
+      <label for="insurance">Insurance Provider:</label>
+      <input type="text" id="insurance" name="insurance">
+
+      <button type="submit">Search</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Medical Care Finder</p>
+  </footer>
+</body>
+</html>
